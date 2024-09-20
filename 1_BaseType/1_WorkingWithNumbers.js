@@ -1,4 +1,5 @@
 "use strict";
+//  1. Работа с числами
 function sum(a, b) {
     return a + b;
 }
