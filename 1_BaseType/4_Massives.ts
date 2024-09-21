@@ -1,4 +1,4 @@
-// 4.Массивы
+//  4.Массивы
 
 const names: string[] = ['vladilen', 'igor', 'elena']
 names.push('eva')

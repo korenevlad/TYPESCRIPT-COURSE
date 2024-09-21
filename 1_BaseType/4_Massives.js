@@ -1,5 +1,5 @@
 "use strict";
-// 4.Массивы
+//  4.Массивы
 const names = ['vladilen', 'igor', 'elena'];
 names.push('eva');
 // names.push(42)

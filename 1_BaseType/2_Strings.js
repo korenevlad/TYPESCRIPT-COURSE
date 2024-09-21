@@ -1,5 +1,5 @@
 "use strict";
-// 2. Строки. Логический тип. Базовая типизация функций
+//  2. Строки. Логический тип. Базовая типизация функций
 const string = 'Hello TypeScript';
 function transform(str, uppercase) {
     if (uppercase) {
