@@ -1,3 +1,5 @@
+//  9. Подробнее о типизации функций
+
 function logg(data: any): void{
     console.log(data)
 }
