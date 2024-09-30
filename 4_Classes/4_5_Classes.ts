@@ -1,22 +1,21 @@
 // Классы (Абстрактные классы)
 
- abstract class Logger {
-    abstract log(meassage: string): void 
-
-    table(data: object) {
+abstract class Logger {
+    abstract log(message: string): void
+    table(data: object){
         console.log(data)
     }
- }
+}
 
- class MeassgaeLogger extends Logger{
-    log2(message: string): void {
-        console.log(message)
+class MeassgaeLogger extends Logger{
+    log(meassage: string): void{
+        console.log(meassage)
     }
- }
+}
 
- // const Logger = new Logger() // error
+// const Logger = new Logger() // error
 
- const logger = new MeassgaeLogger()
+const logger = new MeassgaeLogger()
 
- logger.log2('Hello')
+logger.log('Hello')
 logger.table({a: 1, b: 2})

@@ -1,6 +1,8 @@
 "use strict";
-// Классы (модификаторы доступа)
+// Классы (модификаторы доступа,
+//         Статические методы и свойства. Модификатор readonly)
 class Figure {
+    static BASE_TYPE = "FIGURE";
     _size = 10;
     _color = 'red';
     _id;
@@ -12,6 +14,10 @@ class Figure {
     }
 }
 class Box extends Figure {
+    static TYPE = "Box";
+    static logId() {
+        console.log(Math.random());
+    }
     #weigth = 30; // так же новый модификатор доступа private
     getInfo() {
         return {
