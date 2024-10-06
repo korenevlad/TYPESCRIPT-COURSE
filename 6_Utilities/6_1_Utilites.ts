@@ -59,12 +59,12 @@ type User2 = Exclude<'a' | 'b' | Userrr3, string>
 
 
 // ReturnType, Parameters 
-function log(data: string[], num: number): boolean {
+function log6(data: string[], num: number): boolean {
     console.log(data, num)
     return false
 }
-type LogReturn = ReturnType<typeof log>
-type LogParams = Parameters<typeof log>[1]
+type LogReturn = ReturnType<typeof log6>
+type LogParams = Parameters<typeof log6>[1]
 
 class Userrr4 {
     constructor(public name: string, public age?: number){}
